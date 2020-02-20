@@ -9,7 +9,7 @@ suite_e: "Crumpet the Elf"
 def select_winner(passengers)
   winner = ""
   passengers.each do |suite, name|
-    if key == "suite_a" && name.starts_with?("A")
+    if suite == "suite_a" && name.starts_with?("A")
       winner = name
     end
   end
